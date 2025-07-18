@@ -140,6 +140,10 @@ app.get('/api/visitors', (req, res) => {
 // });
 
 // Start the server
-server.listen(5000, () => {
-  console.log('Server listening on http://localhost:5000');
+// server.listen(5000, () => {
+//   console.log('Server listening on http://localhost:5000');
+// });
+
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Server running on port 3000');
 });
